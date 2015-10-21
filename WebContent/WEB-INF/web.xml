@@ -16,11 +16,11 @@
     </listener>  
   
     <servlet>  
-        <servlet-name>IndoorNavigationServer</servlet-name>  
+        <servlet-name>IndoorNavigationService</servlet-name>  
         <servlet-class>org.apache.cxf.transport.servlet.CXFServlet</servlet-class>  
     </servlet>  
     <servlet-mapping>  
-        <servlet-name>IndoorNavigationServer</servlet-name>  
+        <servlet-name>IndoorNavigationService</servlet-name>  
         <url-pattern>/*</url-pattern>  
     </servlet-mapping>  
 </web-app>
