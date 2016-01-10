@@ -19,8 +19,8 @@
     <bean id="inMessageInterceptor" class="org.apache.cxf.interceptor.LoggingInInterceptor"/>  
     <bean id="outLoggingInterceptor" class="org.apache.cxf.interceptor.LoggingOutInterceptor" />  
   
-    <bean id="basicDataServiceBean" class="com.nav.service.BasicDataServiceImpl" />  
-    <jaxws:server id="basicDataService" serviceClass="com.nav.iservice.IBasicDataService" address="/BasicData">  
+    <bean id="basicDataServiceBean" class="com.pos.service.BasicDataServiceImpl" />  
+    <jaxws:server id="basicDataService" serviceClass="com.pos.iservice.IBasicDataService" address="/BasicData">  
         <jaxws:serviceBean>  
             <ref bean="basicDataServiceBean" />  
         </jaxws:serviceBean>  

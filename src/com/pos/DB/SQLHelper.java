@@ -1,4 +1,4 @@
-package com.nav.DB;
+package com.pos.DB;
 
 import java.sql.CallableStatement;
 import java.sql.Connection;
@@ -8,7 +8,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-import com.nav.util.ConfigHelper;
+import com.pos.util.ConfigHelper;
 
 public class SQLHelper {
 	//定义变量  

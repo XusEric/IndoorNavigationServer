@@ -1,4 +1,4 @@
-package com.nav.entity;
+package com.pos.entity;
 
 public class User {
 	private Integer id;  

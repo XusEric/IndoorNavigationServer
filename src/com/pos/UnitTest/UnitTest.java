@@ -1,9 +1,9 @@
-package com.nav.UnitTest;
+package com.pos.UnitTest;
 
 import java.util.List;
 
-import com.nav.entity.User;
-import com.nav.service.BasicDataServiceImpl;
+import com.pos.entity.User;
+import com.pos.service.BasicDataServiceImpl;
 
 public class UnitTest {
 

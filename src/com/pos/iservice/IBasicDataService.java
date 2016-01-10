@@ -1,4 +1,4 @@
-package com.nav.iservice;
+package com.pos.iservice;
 
 import java.util.List;
 
@@ -7,7 +7,7 @@ import javax.jws.WebService;
 import javax.jws.soap.SOAPBinding;
 import javax.jws.soap.SOAPBinding.Style;
 
-import com.nav.entity.User;
+import com.pos.entity.User;
 
 @WebService  
 public interface IBasicDataService {

@@ -1,4 +1,4 @@
-package com.nav.service;
+package com.pos.service;
 
 import java.lang.reflect.Method;
 import java.sql.ResultSet;
@@ -11,10 +11,9 @@ import javax.jws.WebService;
 import javax.jws.soap.SOAPBinding;
 import javax.jws.soap.SOAPBinding.Style;
 
-import com.nav.iservice.IBasicDataService;
-import com.nav.DB.SQLHelper;
-import com.nav.entity.User;
-import com.nav.iservice.IBasicDataService;
+import com.pos.DB.SQLHelper;
+import com.pos.entity.User;
+import com.pos.iservice.IBasicDataService;
 
 @WebService
 public class BasicDataServiceImpl implements IBasicDataService {
